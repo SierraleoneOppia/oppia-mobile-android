@@ -1,5 +1,10 @@
 /*
+#31849b - steel blue
+#f79646 - mustard orange
+#6163BB - DC dark green
+#00AB9F - DC mid green
 #74B042 - theme primary
+
 */
 
 @font-face {
@@ -33,6 +38,7 @@ h1,h2,h3,h4,h5,h6{
     margin: 1.5em 0 15px -20px;
     color:#020202;
 }
+
 h1 { font-size: 140%; }
 h2 { font-size: 120%; }
 h3 { font-size: 110%; }
@@ -52,7 +58,6 @@ li{
 }
 li:before {
       content:'\2022';
-      /*content:'\25A0';*/
       display: block;
       position: relative;
       max-width: 0px;
@@ -63,7 +68,7 @@ li:before {
       font-size: 30px;
  }
 a {
-	color: #495525;
+	color: #6163BB;
 	text-decoration: underline;
 }
 
@@ -136,7 +141,7 @@ ul.toc li a:after{
 	margin:10px 5px;
 	padding: 5px;
 	font-weight: bold;
-	border: 2px solid #77A240;
+	border: 2px solid #00AB9F;
 	border-radius: 0.5em;
 	-moz-border-radius: 0.5em;
 	-webkit-border-radius: 0.5em;
