@@ -40,6 +40,18 @@
             android:text="@string/fragment_welcome_desc"/>
 
         <TextView
+            android:id="@+id/welcome_powered_by"
+            style="@style/SubheaderText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:gravity="center"
+            android:text="@string/fragment_welcome_powered_by"/>
+
+        <TextView
             android:id="@+id/welcome_login_info"
             style="@style/SubheaderText"
             android:layout_width="match_parent"
@@ -67,16 +79,6 @@
             android:layout_marginRight="@dimen/activity_horizontal_margin"
             android:text="@string/title_login"/>
 
-        <TextView
-            android:id="@+id/welcome_powered_by"
-            style="@style/SubheaderText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="@dimen/activity_horizontal_margin"
-            android:gravity="center"
-            android:text="@string/fragment_welcome_powered_by"/>
     </LinearLayout>
 
 </ScrollView>
